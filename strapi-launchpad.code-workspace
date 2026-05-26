@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../indigo-workbench/app-indigo-studio"
+		}
+	],
+	"settings": {
+		"workbench.editor.enablePreviewFromCodeNavigation": true,
+		"privateMarketplace.autoUpdate": true,
+		"privateMarketplace.Source": [
+			"http://localhost:8624/feeds/vscode-extensions/atom.xml"
+		]
+	}
+}

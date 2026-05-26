@@ -1,7 +1,7 @@
 {
-  "name": "strapi-next-launchpad-example",
+  "name": "indigo-launch",
   "version": "1.0.0",
-  "description": "Next.js Launchpad Example powered by Strapi",
+  "description": "Indigo Home Services",
   "type": "module",
   "scripts": {
     "prepare": "husky",
@@ -15,11 +15,14 @@
     "export": "cd strapi && yarn strapi export --no-encrypt -f ./data/export_20250116105447",
     "repo:upstream": "git fetch upstream && git merge upstream/main",
     "check:format": "prettier . --check --cache",
+    "check:strapi": "yarn --cwd strapi tsc --noEmit && yarn --cwd strapi strapi --help",
     "fix:format": "prettier . --write --cache",
     "fix": "yarn fix:format",
     "lint-staged": "lint-staged"
   },
   "dependencies": {
+    "@sensinum/strapi-plugin-mcp": "^1.1.0",
+    "@strapi/plugin-graphql": "^5.46.0",
     "@types/node": "^22.5.2",
     "concurrently": "^8.2.2",
     "typescript": "^5.0.0",
@@ -31,6 +34,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "prettier": "^3.5.3",
+    "shadcn": "^4.7.0",
     "ts-node": "^10.9.2",
     "uuid": "^13.0.0"
   },
@@ -41,6 +45,9 @@
     "next/**/*.{js,jsx,ts,tsx}": [
       "cd next && yarn lint --fix"
     ]
+  },
+  "resolutions": {
+    "@modelcontextprotocol/sdk@npm:^1.18.0": "npm:1.18.0"
   },
   "packageManager": "yarn@4.5.0"
 }
