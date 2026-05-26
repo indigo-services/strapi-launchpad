@@ -1,0 +1,5 @@
+[submodule "stapi-docs-website"]
+	path = stapi-docs-website
+	url = https://github.com/strapi/documentation.git
+	branch = main
+	ignore = dirty
