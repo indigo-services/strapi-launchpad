@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Indigo Strapi Standards'
+  short_description: 'Strapi schema standards and validation for Indigo.'
+  default_prompt: 'Use $indigo-strapi-standards to plan or validate Strapi schema, dynamic-zone, and populate-layer changes for Indigo Studio.'

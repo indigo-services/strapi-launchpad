@@ -10,7 +10,11 @@
     "build": "strapi build",
     "strapi": "strapi",
     "deploy": "strapi deploy",
-    "seed": "strapi import -f ./data/export_20250116105447.tar.gz",
+    "seed": "strapi import -f ../plan/2026-05-20-10-seed-export-latest.tar.gz",
+    "reset": "node ../plan/2026-05-20-08-bootstrap-demo-reset.js",
+    "fix-permissions": "node ../plan/2026-05-20-08-fix-admin-permissions.js",
+    "bootstrap": "node ../plan/2026-05-20-08-bootstrap-demo-reset.js",
+    "bootstrap:clean": "node ../plan/2026-05-20-08-bootstrap-demo-reset.js --skip-seed",
     "postinstall": "node ./scripts/updateUuid.js"
   },
   "devDependencies": {
@@ -20,23 +24,31 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@sensinum/strapi-plugin-mcp": "^1.1.0",
     "@strapi/plugin-cloud": "5.42.1",
+    "@strapi/plugin-documentation": "^5.46.0",
     "@strapi/plugin-seo": "^2.0.4",
     "@strapi/plugin-users-permissions": "5.42.1",
+    "@strapi/provider-email-nodemailer": "^5.46.0",
+    "@strapi/sdk-plugin": "^5.3.2",
     "@strapi/strapi": "5.42.1",
     "better-sqlite3": "11.7.0",
     "pluralize": "^8.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "strapi-plugin-config-sync": "^3.2.0",
+    "strapi-plugin-content-manager-organizer": "^1.0.0",
+    "strapi-plugin-navigation": "^3.3.7",
+    "strapi-plugin-soft-delete-contents": "^1.0.5",
     "styled-components": "^6.0.0",
     "uuid": "^10.0.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "jaden.black"
   },
   "strapi": {
-    "uuid": "LAUNCHPAD"
+    "uuid": "local-dev"
   },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",

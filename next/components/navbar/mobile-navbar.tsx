@@ -2,7 +2,7 @@
 
 import { useMotionValueEvent, useScroll } from 'framer-motion';
 import { Link } from 'next-view-transitions';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { IoIosMenu } from 'react-icons/io';
 import { IoIosClose } from 'react-icons/io';
 
@@ -75,9 +75,9 @@ export const MobileNavbar = ({
           </div>
           <div className="flex flex-col items-start justify-start gap-[14px] px-8">
             {leftNavbarItems.map((navItem: any, idx: number) => (
-              <>
+              <React.Fragment key={`nav-${idx}`}>
                 {navItem.children && navItem.children.length > 0 ? (
-                  <>
+                  <React.Fragment key={`children-${idx}`}>
                     {navItem.children.map((childNavItem: any, idx: number) => (
                       <Link
                         key={`link=${idx}`}
@@ -91,7 +91,7 @@ export const MobileNavbar = ({
                         </span>
                       </Link>
                     ))}
-                  </>
+                  </React.Fragment>
                 ) : (
                   <Link
                     key={`link=${idx}`}
@@ -105,7 +105,7 @@ export const MobileNavbar = ({
                     </span>
                   </Link>
                 )}
-              </>
+              </React.Fragment>
             ))}
           </div>
           <div className="flex flex-row w-full items-start gap-2.5  px-8 py-4 ">

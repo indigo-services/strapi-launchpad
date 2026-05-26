@@ -1,0 +1,28 @@
+[mcp_servers.browseros]
+url = "http://127.0.0.1:9000/mcp"
+
+[mcp_servers.mcp-plugin-strapi-server]
+url = "http://localhost:1337/api/mcp/streamable"
+
+[mcp_servers.web-reader]
+bearer_token_env_var = "Z_AI_API_KEY"
+url = "https://api.z.ai/api/mcp/web_reader/mcp"
+
+[mcp_servers.web-search-prime]
+bearer_token_env_var = "Z_AI_API_KEY"
+url = "https://api.z.ai/api/mcp/web_search_prime/mcp"
+
+[mcp_servers.zai-mcp-server]
+args = [
+    "-y",
+    "@z_ai/mcp-server",
+]
+command = "npx"
+env_vars = ["Z_AI_API_KEY"]
+
+[mcp_servers.zai-mcp-server.env]
+Z_AI_MODE = "ZAI"
+
+[mcp_servers.zread]
+bearer_token_env_var = "Z_AI_API_KEY"
+url = "https://api.z.ai/api/mcp/zread/mcp"
