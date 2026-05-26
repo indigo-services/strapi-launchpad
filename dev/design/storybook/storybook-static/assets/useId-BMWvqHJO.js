@@ -1,0 +1,1 @@
+import{r,m as u,u as c}from"./iframe-_cKE9r89.js";const f=u.useId||(()=>{});let m=0;const S=t=>{const[s,e]=r.useState(f());return c(()=>{t||e(o=>o??String(m++))},[t]),(t==null?void 0:t.toString())??(s||"")};export{S as u};

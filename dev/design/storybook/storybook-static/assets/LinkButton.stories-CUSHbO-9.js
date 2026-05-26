@@ -1,0 +1,23 @@
+import{f as m,j as s,B as u}from"./iframe-_cKE9r89.js";import{B as p}from"./Button-BvqyPouE.js";const n=m(({disabled:a,...l},o)=>s.jsx(p,{ref:o,tag:u,tabIndex:a?-1:void 0,disabled:a,...l}));n.__docgenInfo={description:"",methods:[],displayName:"LinkButton",props:{ref:{required:!1,tsType:{name:"ReactComponentPropsWithRef['ref']",raw:"React.ComponentPropsWithRef<C>['ref']"},description:""},alignItems:{required:!1,tsType:{name:"union",raw:`| {
+    [key in Breakpoint]?: T;
+  }
+| T`,elements:[{name:"signature",type:"object",raw:`{
+  [key in Breakpoint]?: T;
+}`,signature:{properties:[{key:{name:"union",raw:"'initial' | 'small' | 'medium' | 'large'",elements:[{name:"literal",value:"'initial'"},{name:"literal",value:"'small'"},{name:"literal",value:"'medium'"},{name:"literal",value:"'large'"}],required:!1},value:{name:"CSSProperties['alignItems']",raw:"CSSProperties['alignItems']"}}]}},{name:"CSSProperties['alignItems']",raw:"CSSProperties['alignItems']"}]},description:""},justifyContent:{required:!1,tsType:{name:"union",raw:`| {
+    [key in Breakpoint]?: T;
+  }
+| T`,elements:[{name:"signature",type:"object",raw:`{
+  [key in Breakpoint]?: T;
+}`,signature:{properties:[{key:{name:"union",raw:"'initial' | 'small' | 'medium' | 'large'",elements:[{name:"literal",value:"'initial'"},{name:"literal",value:"'small'"},{name:"literal",value:"'medium'"},{name:"literal",value:"'large'"}],required:!1},value:{name:"CSSProperties['justifyContent']",raw:"CSSProperties['justifyContent']"}}]}},{name:"CSSProperties['justifyContent']",raw:"CSSProperties['justifyContent']"}]},description:""},wrap:{required:!1,tsType:{name:"union",raw:`| {
+    [key in Breakpoint]?: T;
+  }
+| T`,elements:[{name:"signature",type:"object",raw:`{
+  [key in Breakpoint]?: T;
+}`,signature:{properties:[{key:{name:"union",raw:"'initial' | 'small' | 'medium' | 'large'",elements:[{name:"literal",value:"'initial'"},{name:"literal",value:"'small'"},{name:"literal",value:"'medium'"},{name:"literal",value:"'large'"}],required:!1},value:{name:"CSSProperties['flexWrap']",raw:"CSSProperties['flexWrap']"}}]}},{name:"CSSProperties['flexWrap']",raw:"CSSProperties['flexWrap']"}]},description:""},direction:{required:!1,tsType:{name:"union",raw:`| {
+    [key in Breakpoint]?: T;
+  }
+| T`,elements:[{name:"signature",type:"object",raw:`{
+  [key in Breakpoint]?: T;
+}`,signature:{properties:[{key:{name:"union",raw:"'initial' | 'small' | 'medium' | 'large'",elements:[{name:"literal",value:"'initial'"},{name:"literal",value:"'small'"},{name:"literal",value:"'medium'"},{name:"literal",value:"'large'"}],required:!1},value:{name:"CSSProperties['flexDirection']",raw:"CSSProperties['flexDirection']"}}]}},{name:"CSSProperties['flexDirection']",raw:"CSSProperties['flexDirection']"}]},description:""},gap:{required:!1,tsType:{name:"unknown"},description:""},inline:{required:!1,tsType:{name:"boolean"},description:""},disabled:{required:!1,tsType:{name:"boolean"},description:""},endIcon:{required:!1,tsType:{name:"ReactReactNode",raw:"React.ReactNode"},description:""},fullWidth:{required:!1,tsType:{name:"boolean"},description:""},loading:{required:!1,tsType:{name:"boolean"},description:""},onClick:{required:!1,tsType:{name:"signature",type:"function",raw:"(event: React.MouseEvent<HTMLButtonElement>) => void",signature:{arguments:[{type:{name:"ReactMouseEvent",raw:"React.MouseEvent<HTMLButtonElement>",elements:[{name:"HTMLButtonElement"}]},name:"event"}],return:{name:"void"}}},description:""},size:{required:!1,tsType:{name:"unknown[number]",raw:"(typeof BUTTON_SIZES)[number]"},description:""},startIcon:{required:!1,tsType:{name:"ReactReactNode",raw:"React.ReactNode"},description:""},variant:{required:!1,tsType:{name:"unknown[number]",raw:"(typeof VARIANTS)[number]"},description:""},type:{required:!1,tsType:{name:"union",raw:"'button' | 'submit' | 'reset'",elements:[{name:"literal",value:"'button'"},{name:"literal",value:"'submit'"},{name:"literal",value:"'reset'"}]},description:""}}};const d=["default","secondary","tertiary","success","success-light","danger","danger-light","ghost"],c={title:"Components/LinkButton",component:n,args:{children:"strapi.io",disabled:!1,href:"https://strapi.io",isExternal:!0,size:"M",variant:"default"},argTypes:{size:{control:"select",options:["S","M","L"]},variant:{control:"select",options:d}},render:a=>s.jsx(n,{...a})},e={name:"base"};var t,r,i;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  name: 'base'
+} satisfies Story`,...(i=(r=e.parameters)==null?void 0:r.docs)==null?void 0:i.source}}};const f=["Base"],T=Object.freeze(Object.defineProperty({__proto__:null,Base:e,__namedExportsOrder:f,default:c},Symbol.toStringTag,{value:"Module"}));export{e as B,T as L,n as a};
