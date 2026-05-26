@@ -1,0 +1,79 @@
+{
+  "mainBranch": "main",
+  "branchPattern": "{user}/{number}-{title}",
+  "startWorkingStatus": "In progress",
+  "doneStatus": "Done",
+  "prOpenedStatus": "In progress",
+  "prMergedStatus": "Done",
+  "issueNotInProject": "ask",
+  "worktreePath": "../.worktrees",
+  "worktreeCopyFiles": [
+    ".env",
+    ".env.local",
+    ".vercel/project.json",
+    "next/.env",
+    "next/.env.local",
+    "strapi/.env"
+  ],
+  "worktreeSetupCommand": "yarn && yarn setup",
+  "worktreeAutoSetup": true,
+  "parallelWork": {
+    "openTerminal": false,
+    "autoRunClaude": false,
+    "terminalMode": "terminal"
+  },
+  "defaults": {
+    "plan": {
+      "project": "launchops",
+      "mine": true
+    },
+    "work": {
+      "project": "launchops",
+      "hideDone": true
+    },
+    "addIssue": {
+      "project": "launchops",
+      "status": "Todo"
+    }
+  },
+  "shortcuts": {
+    "studio": {
+      "project": "launchops",
+      "slice": [
+        "Repository=indigo-services/indigo-studio"
+      ]
+    },
+    "studio-open": {
+      "project": "launchops",
+      "slice": [
+        "Repository=indigo-services/indigo-studio"
+      ],
+      "status": [
+        "Todo",
+        "In progress"
+      ]
+    },
+    "landing": {
+      "project": "launchops",
+      "slice": [
+        "Repository=indigo-services/var1-home-landing"
+      ]
+    },
+    "launch-apps": {
+      "project": "launchops",
+      "slice": [
+        "Repository=indigo-services/website-call-indigo"
+      ]
+    },
+    "launch-apps-open": {
+      "project": "launchops",
+      "slice": [
+        "Repository=indigo-services/website-call-indigo"
+      ],
+      "status": [
+        "Todo",
+        "In progress"
+      ]
+    }
+  }
+}

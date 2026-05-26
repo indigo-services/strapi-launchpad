@@ -1,0 +1,17 @@
+{
+  "chat.mcp.serverSampling": {
+    "strapi-launchpad/.vscode/mcp.json: shadcn": {
+      "allowedModels": [
+        "copilot/auto",
+        "copilotcli/claude-haiku-4.5",
+        "copilotcli/gpt-5-mini",
+        "copilot/oswe-vscode-prime"
+      ]
+    }
+  },
+  "ghProjects.showOnlyAssignedToMe": false,
+  "ghProjects.showSwitchButton": true,
+  "ghProjects.worktreeAutoSetup": true,
+  "ghProjects.planningModeViews": [],
+  "ghProjects.hiddenViews": []
+}

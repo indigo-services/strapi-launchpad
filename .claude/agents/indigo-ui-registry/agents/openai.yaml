@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Indigo UI Registry'
+  short_description: 'shadcn and FOSS component registry workflow for Indigo.'
+  default_prompt: 'Use $indigo-ui-registry to select, evaluate, and register shadcn or FOSS components for Indigo Studio reuse, Storybook growth, and future Strapi-backed modules.'
