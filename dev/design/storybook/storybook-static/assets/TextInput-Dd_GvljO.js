@@ -1,0 +1,1 @@
+import{r as o,j as s}from"./iframe-_cKE9r89.js";import{I as p}from"./Field-Cwhta1v_.js";const t=o.forwardRef((r,e)=>s.jsx(p,{ref:e,...r}));t.displayName="TextInput";t.__docgenInfo={description:"",methods:[],displayName:"TextInput"};export{t as T};

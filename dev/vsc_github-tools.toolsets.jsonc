@@ -1,0 +1,131 @@
+{
+  "github-core": {
+    "tools": [
+      "get_changed_files",
+      "grep_search",
+      "file_search",
+      "read_file",
+      "replace_string_in_file",
+      "get_errors",
+      "semantic_search",
+      "vscode_listCodeUsages",
+      "vscode_renameSymbol"
+    ],
+    "description": "Core repository inspection and in-place code edits.",
+    "icon": "code"
+  },
+  "github-dev": {
+    "tools": [
+      "run_in_terminal",
+      "get_errors",
+      "get_changed_files",
+      "grep_search",
+      "file_search",
+      "read_file"
+    ],
+    "description": "Developer workflow: build/test/debug and quick grep.",
+    "icon": "tools"
+  },
+  "github-integration": {
+    "tools": [
+      "github_repo",
+      "fetch_webpage",
+      "get_changed_files",
+      "grep_search",
+      "file_search"
+    ],
+    "description": "Integration tasks using GitHub and web lookups.",
+    "icon": "mark-github"
+  },
+  "github-qa": {
+    "tools": [
+      "get_errors",
+      "grep_search",
+      "read_file",
+      "get_changed_files",
+      "file_search",
+      "semantic_search"
+    ],
+    "description": "Quality and correctness specialist toolset.",
+    "icon": "shield"
+  },
+  "github-docs": {
+    "tools": [
+      "fetch_webpage",
+      "read_file",
+      "grep_search",
+      "semantic_search",
+      "get_errors"
+    ],
+    "description": "Documentation research and compliance validation.",
+    "icon": "book"
+  },
+  "github-design": {
+    "tools": [
+      "activate_design_guidelines_and_inspiration_tools",
+      "activate_design_system_management_tools",
+      "activate_node_management_tools",
+      "activate_auto_layout_tools"
+    ],
+    "description": "Design-system-focused toolset for UI/layout adjustments.",
+    "icon": "paintcan"
+  },
+  "github-figma": {
+    "tools": [
+      "activate_creation_tools",
+      "activate_connection_tools",
+      "activate_annotation_tools",
+      "activate_document_info_tools",
+      "activate_instance_override_tools",
+      "activate_node_scanning_tools",
+      "mcp_talktofigma_get_local_components",
+      "mcp_talktofigma_get_reactions",
+      "mcp_talktofigma_get_instance_overrides",
+      "mcp_talktofigma_set_instance_overrides"
+    ],
+    "description": "Figma and workspace node operations for UI build.",
+    "icon": "figma"
+  },
+  "github-browser": {
+    "tools": [
+      "open_browser_page",
+      "navigate_page",
+      "click_element",
+      "type_in_page",
+      "read_page",
+      "screenshot_page",
+      "fetch_webpage"
+    ],
+    "description": "Browser automation and data extraction subset.",
+    "icon": "browser"
+  },
+  "github-dataViz": {
+    "tools": [
+      "mcp_display_table",
+      "mcp_display_tree",
+      "mcp_display_list",
+      "mcp_visuals-mcp_display_image",
+      "renderMermaidDiagram"
+    ],
+    "description": "Data visualization and report generation tools.",
+    "icon": "graph"
+  },
+    "github-specialist": {
+      "tools": [
+        "get_changed_files",
+        "grep_search",
+        "file_search",
+        "read_file",
+        "replace_string_in_file",
+        "run_in_terminal",
+        "get_errors",
+        "vscode_listCodeUsages",
+        "vscode_renameSymbol",
+        "semantic_search",
+        "fetch_webpage",
+        "github_repo"
+      ],
+      "description": "GitHub specialist toolset: focused on repository search, diff, edit, and integration workflows.",
+      "icon": "mark-github"
+    }
+  }
