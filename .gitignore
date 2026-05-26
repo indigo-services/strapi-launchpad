@@ -40,3 +40,11 @@ strapi/public/uploads/
 !.yarn/versions
 
 ../app-indigo-studio
+
+# Large design reference files (kept locally)
+dev/design/data-examples-website/*.zip
+dev/data/market.strapi.io.zip
+dev/data/data-for-production.db
+dev/data/strapi5-skill-main.zip
+strapi/data/export_*.tar.gz
+dev/design/storybook/storybook-static/
